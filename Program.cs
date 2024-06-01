@@ -3,7 +3,7 @@ using System.IO;
 using System.IO.Compression;
 using System.Collections.Generic;
 
-namespace Ragnarok_Online_Extractor
+namespace Ragnarok_Online_2_Extractor
 {
     class Program
     {
@@ -13,7 +13,7 @@ namespace Ragnarok_Online_Extractor
         {
             br = new BinaryReader(File.OpenRead(args[0]));
             if (new string(br.ReadChars(8)) != "VDISK1.1")
-                throw new System.Exception("Not a Ragnarok Online VDK file.");
+                throw new System.Exception("Not a Ragnarok Online 2 VDK file.");
 
             path = Path.GetDirectoryName(args[0]) + "\\";
             int unknown1 = br.ReadInt32();

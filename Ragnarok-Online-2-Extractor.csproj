@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>Ragnarok_Online_Extractor</RootNamespace>
+    <RootNamespace>Ragnarok_Online_2_Extractor</RootNamespace>
   </PropertyGroup>
 
 </Project>
